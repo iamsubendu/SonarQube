@@ -1,0 +1,131 @@
+Software Testing
+-------------------
+Its aim is to ensure that code deployed is of high 
+quality with no bugs and no logical errors.
+
+
+Testing also decreases maintainence cost as it 
+increases quality of code.
+
+Also helps in ensuring code is secure.
+
+
+Testing Type 
+=> Manual
+=> Automatic
+
+Testing Methods
+=> Static
+=> Dynamic
+
+Testing Approaches
+=> Black Box
+=> White Box
+=> Gray Box
+
+Testing Levels
+=> Unit Testing
+=> Integration Testing
+=> System Testing
+=> Acceptance Testing
+
+
+===================================================
+
+Dynamic Testing
+-----------------
+Happens during the execution of code.
+It identify defects because it looks at the code's 
+integration with other databases, servers and
+services.
+It happens in testing environment not in production 
+or development environment.
+Testing environment is a copy of the production env.
+which is not gone be used by customer. 
+
+It will find fualts in specific part of code during 
+the execution time.
+
+Some of errors that wouldn't be found using static 
+testing would definetly be found out using Dynamic
+testing & especially those parts of source code that 
+rely on external services.
+
+Ex of tools 
+=> Selenium, Katalon, CasperJs
+
+=====================================================
+
+Static Testing
+-----------------
+Method of examining source code before the program is
+run,i.e. testing code without actually executing it.
+It does so by analyzing the code against pre-set of
+coding rules and ensures that it conforms to the 
+guidelines.
+This testing only happens during development.
+Its an early testing which is done by tools.
+
+Reasons to use
+=> find errors earlier in development
+=> detects overcomplexity in code
+=> find security errors
+=> enforces best coding practices
+=> Automated & Integrates in Jenkins
+=> Can create project specific rules
+
+Ex of tools used
+=> sonarQube, Coverity, Pycharm
+
+=====================================================
+
+Technical Debt
+------------------
+Its an implied costs for additional rework that can 
+occur if at an early stage an easy but not efficient
+solution is chosen.
+In future the easy code may restrict scalability.
+
+=====================================================
+
+sonarQube
+--------------
+static test analysis software.
+used by developers to manage source code and consistency.
+some of code quality checks are-
+
+=> potential bugs
+=> code defects to design inefficiencies
+=> code duplication
+=> lack of test coverage
+=> excess complexity
+
+It can work with 25 different languages.
+
+Features
+---------------
+Tricky Issues
+=> detect bugs
+=> code smells -> charac. of code that may effect
+                     in future
+                This are always not a problem.
+=> security vulnerability
+=> activate rules needed
+=> execution path
+
+
+Enhanced Work Flow
+----------------------
+=> Automated code analysis
+=> Get access through webhooks & api
+=> integrate github
+=> analyze branches and decorate pull requests
+
+Build in Methodology
+-----------------------
+=> Discover memory leaks
+=> Good visualizer
+=> enforces a quality gate
+=> digs into Issues
+=> plugins for IDEs
+
